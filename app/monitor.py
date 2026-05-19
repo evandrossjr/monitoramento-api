@@ -1,0 +1,73 @@
+import requests
+import time
+from datetime import datetime
+from app.logger import salvar_log
+from app.alerts import enviar_alerta
+
+
+
+def monitorar_api(url: str, nome: str, headers: dict = None):
+
+    inicio = time.time()
+    horario = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+    try:
+        resposta = requests.get(url, headers=headers, timeout=10)
+        tempo = round(time.time() - inicio, 3)
+
+        json_valido = True
+        try:
+            resposta.json()
+        except Exception:
+            json_valido = False
+
+        if resposta.status_code == 200 and json_valido:
+            status = "online"
+        elif resposta.status.code in [401, 403]:
+            status= "autenticacao falhou"
+        elif resposta.status_code >= 500:
+            status = "problema no servidor"
+        else:
+            status = f"offline - http_{resposta.status_code}"
+
+
+        entrada = [
+            "nome": nome,
+            "url": url,
+            "status": status,
+            "codigo_http": resposta.status_code,
+            "tempo_resposta": tempo,
+            "json_valido": json_valido,
+            "horario": horario
+        ]
+
+    except requests.exceptions.ConnectionError:
+        entrada = {
+            "nome": nome,
+            "url": url,
+            "status": "offline - sem conexão",
+            "codigo_http": None,
+            "tempo_resposta": None,
+            "json_valido": None,
+            "horario": horario
+        }
+
+    except requests.exceptions.Timeout:
+        entrada["status"] = "offline - timeout"
+            
+    salvar_log(entrada)
+
+    if entrada["status"] != "online":
+        enviar_alerta(entrada)
+
+    return entrada
+
+
+def monitorar_listas(apis: list):
+
+    resultados = []
+    for api in apis:
+        resultado = chechar_api(api["url"], api["name"])
+        resultados.append(resultado)
+        print(f"{resultado['horario']} - {resultado['nome']} - {resultado['status']} - {resultado['tempo_resposta']}s")
+    return resultados
