@@ -36,5 +36,7 @@ def criar_app():
             'offline': total - online,
             'taxa_sucesso': round(online / total * 100, 1) if total else 0
         })
+    
+    
  
     return app

@@ -3,8 +3,10 @@ import time
 from datetime import datetime
 from logger import salvar_log
 from alerts import enviar_alerta
+from alerts import enviar_alerta_recuperacao
 
 
+estado_anterior = {}
 
 def monitorar_api(url: str, nome: str, headers: dict = None):
 
@@ -65,8 +67,17 @@ def monitorar_api(url: str, nome: str, headers: dict = None):
             
     salvar_log(entrada)
 
-    if entrada["status"] != "online":
+    status_atual = entrada["status"]
+    status_antes = estado_anterior.get(nome)
+
+    if status_atual != "online" and status_antes != status_atual:
+        # ficou offline ou mudou o tipo de erro
         enviar_alerta(entrada)
+    elif status_atual == "online" and status_antes and status_antes != "online":
+        # voltou a ficar online
+        enviar_alerta_recuperacao(entrada)
+
+    estado_anterior[nome] = status_atual
 
     return entrada
 

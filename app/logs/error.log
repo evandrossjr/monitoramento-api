@@ -140,3 +140,33 @@ jinja2.exceptions.TemplateNotFound: index.html
  * Running on http://127.0.0.1:5000
  * Running on http://192.168.100.22:5000
 2026-05-20 00:13:00,665 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-20 00:20:32,839 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.22:5000
+2026-05-20 00:20:32,840 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-20 00:26:34,670 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.22:5000
+2026-05-20 00:26:34,671 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-20 00:29:05,758 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.22:5000
+2026-05-20 00:29:05,758 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-20 00:36:54,450 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.22:5000
+2026-05-20 00:36:54,450 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-20 00:37:50,932 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.22:5000
+2026-05-20 00:37:50,932 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-20 00:40:47,153 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.22:5000
+2026-05-20 00:40:47,153 - INFO - [33mPress CTRL+C to quit[0m
