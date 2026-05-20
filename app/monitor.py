@@ -1,8 +1,8 @@
 import requests
 import time
 from datetime import datetime
-from app.logger import salvar_log
-from app.alerts import enviar_alerta
+from logger import salvar_log
+from alerts import enviar_alerta
 
 
 
@@ -21,9 +21,9 @@ def monitorar_api(url: str, nome: str, headers: dict = None):
         except Exception:
             json_valido = False
 
-        if resposta.status_code == 200 and json_valido:
+        if resposta.status_code == 200:
             status = "online"
-        elif resposta.status.code in [401, 403]:
+        elif resposta.status_code in [401, 403]:
             status= "autenticacao falhou"
         elif resposta.status_code >= 500:
             status = "problema no servidor"
@@ -31,7 +31,7 @@ def monitorar_api(url: str, nome: str, headers: dict = None):
             status = f"offline - http_{resposta.status_code}"
 
 
-        entrada = [
+        entrada = {
             "nome": nome,
             "url": url,
             "status": status,
@@ -39,7 +39,7 @@ def monitorar_api(url: str, nome: str, headers: dict = None):
             "tempo_resposta": tempo,
             "json_valido": json_valido,
             "horario": horario
-        ]
+        }
 
     except requests.exceptions.ConnectionError:
         entrada = {
@@ -53,7 +53,15 @@ def monitorar_api(url: str, nome: str, headers: dict = None):
         }
 
     except requests.exceptions.Timeout:
-        entrada["status"] = "offline - timeout"
+        entrada = {
+            "nome": nome,
+            "url": url,
+            "status": "offline - timeout",
+            "codigo_http": None,
+            "tempo_resposta": None,
+            "json_valido": None,
+            "horario": horario
+        }
             
     salvar_log(entrada)
 
@@ -67,7 +75,7 @@ def monitorar_listas(apis: list):
 
     resultados = []
     for api in apis:
-        resultado = chechar_api(api["url"], api["name"])
+        resultado = monitorar_api(api["url"], api["name"])
         resultados.append(resultado)
         print(f"{resultado['horario']} - {resultado['nome']} - {resultado['status']} - {resultado['tempo_resposta']}s")
     return resultados

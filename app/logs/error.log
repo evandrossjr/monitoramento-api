@@ -1,0 +1,142 @@
+2026-05-19 20:55:47,271 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.22:5000
+2026-05-19 20:55:47,272 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-19 20:57:34,785 - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\evand\Python\monitoramento-api\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\evand\Python\monitoramento-api\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\evand\Python\monitoramento-api\venv\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ~^^^^^^^^^^^^^^^^^
+  File "C:\Users\evand\Python\monitoramento-api\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\evand\Python\monitoramento-api\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\evand\Python\monitoramento-api\app\web.py", line 13, in index
+    return render_template('index.html')
+  File "C:\Users\evand\Python\monitoramento-api\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\evand\Python\monitoramento-api\venv\Lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evand\Python\monitoramento-api\venv\Lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\evand\Python\monitoramento-api\venv\Lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\evand\Python\monitoramento-api\venv\Lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evand\Python\monitoramento-api\venv\Lib\site-packages\flask\templating.py", line 66, in get_source
+    return self._get_source_fast(environment, template)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evand\Python\monitoramento-api\venv\Lib\site-packages\flask\templating.py", line 100, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+2026-05-19 20:57:34,904 - INFO - 127.0.0.1 - - [19/May/2026 20:57:34] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-05-19 20:57:34,966 - INFO - 127.0.0.1 - - [19/May/2026 20:57:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-19 21:02:43,025 - INFO - 127.0.0.1 - - [19/May/2026 21:02:43] "GET /api/logs HTTP/1.1" 200 -
+2026-05-19 21:13:27,722 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.22:5000
+2026-05-19 21:13:27,722 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-19 21:19:48,834 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.22:5000
+2026-05-19 21:19:48,835 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-19 21:20:14,194 - INFO - 127.0.0.1 - - [19/May/2026 21:20:14] "GET /api/logs HTTP/1.1" 200 -
+2026-05-19 21:20:18,708 - INFO - 127.0.0.1 - - [19/May/2026 21:20:18] "GET /api/status HTTP/1.1" 200 -
+2026-05-19 21:20:59,583 - INFO - 127.0.0.1 - - [19/May/2026 21:20:59] "GET /api/checar HTTP/1.1" 200 -
+2026-05-19 22:00:48,354 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.22:5000
+2026-05-19 22:00:48,354 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-19 22:01:30,425 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.22:5000
+2026-05-19 22:01:30,426 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-19 22:01:55,928 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.22:5000
+2026-05-19 22:01:55,928 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-19 22:26:05,891 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.22:5000
+2026-05-19 22:26:05,891 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-19 23:15:31,038 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.22:5000
+2026-05-19 23:15:31,039 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-19 23:17:25,012 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.22:5000
+2026-05-19 23:17:25,013 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-19 23:19:10,904 - INFO - 127.0.0.1 - - [19/May/2026 23:19:10] "GET /api/checar HTTP/1.1" 200 -
+2026-05-19 23:26:16,120 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.22:5000
+2026-05-19 23:26:16,120 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-19 23:32:31,913 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.22:5000
+2026-05-19 23:32:31,913 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-19 23:34:12,015 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.22:5000
+2026-05-19 23:34:12,015 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-19 23:35:02,621 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.22:5000
+2026-05-19 23:35:02,621 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-19 23:48:00,765 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.22:5000
+2026-05-19 23:48:00,765 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-19 23:50:11,774 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.22:5000
+2026-05-19 23:50:11,774 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-20 00:00:38,522 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.22:5000
+2026-05-20 00:00:38,522 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-20 00:02:31,685 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.22:5000
+2026-05-20 00:02:31,686 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-20 00:07:20,619 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.22:5000
+2026-05-20 00:07:20,619 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-20 00:08:17,317 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.22:5000
+2026-05-20 00:08:17,317 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-20 00:13:00,665 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.22:5000
+2026-05-20 00:13:00,665 - INFO - [33mPress CTRL+C to quit[0m

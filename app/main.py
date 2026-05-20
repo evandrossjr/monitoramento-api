@@ -1,10 +1,9 @@
-import schedule
+import schedule 
 import time
 import threading
-from app.config import API_URLS, MONITORING_INTERVAL, WEBHOOK_URL, RESPONSE_TIME_THRESHOLD, FLASK_PORT
-from app.monitor import monitorar_listas
+from config import (API_URLS,MONITORING_INTERVAL, RESPONSE_TIME_THRESHOLD,FLASK_PORT)
+from monitor import monitorar_listas
 from web import criar_app
-
 
 def loop_monitoramento():
     
@@ -41,4 +40,3 @@ if __name__ == "__main__":
     app.run(host='0.0.0.0', port=FLASK_PORT, debug=False)    
 
 
-    

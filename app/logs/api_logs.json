@@ -1,0 +1,4070 @@
+[
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.6,
+    "json_valido": true,
+    "horario": "2026-05-19 20:55:47"
+  },
+  {
+    "nome": "Temperatura ESP32",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 20:55:47"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.521,
+    "json_valido": true,
+    "horario": "2026-05-19 20:56:58"
+  },
+  {
+    "nome": "Temperatura ESP32",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 20:56:58"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.452,
+    "json_valido": true,
+    "horario": "2026-05-19 20:58:09"
+  },
+  {
+    "nome": "Temperatura ESP32",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 20:58:09"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.487,
+    "json_valido": true,
+    "horario": "2026-05-19 20:59:20"
+  },
+  {
+    "nome": "Temperatura ESP32",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 20:59:20"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.583,
+    "json_valido": true,
+    "horario": "2026-05-19 21:00:31"
+  },
+  {
+    "nome": "Temperatura ESP32",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 21:00:32"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.508,
+    "json_valido": true,
+    "horario": "2026-05-19 21:01:42"
+  },
+  {
+    "nome": "Temperatura ESP32",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 21:01:43"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.487,
+    "json_valido": true,
+    "horario": "2026-05-19 21:02:53"
+  },
+  {
+    "nome": "Temperatura ESP32",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 21:02:54"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.483,
+    "json_valido": true,
+    "horario": "2026-05-19 21:04:04"
+  },
+  {
+    "nome": "Temperatura ESP32",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 21:04:05"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.423,
+    "json_valido": true,
+    "horario": "2026-05-19 21:13:27"
+  },
+  {
+    "nome": "Clinica Médica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "offline - http_200",
+    "codigo_http": 200,
+    "tempo_resposta": 1.041,
+    "json_valido": false,
+    "horario": "2026-05-19 21:13:28"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.544,
+    "json_valido": true,
+    "horario": "2026-05-19 21:14:29"
+  },
+  {
+    "nome": "Clinica Médica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "offline - http_200",
+    "codigo_http": 200,
+    "tempo_resposta": 1.019,
+    "json_valido": false,
+    "horario": "2026-05-19 21:14:29"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.509,
+    "json_valido": true,
+    "horario": "2026-05-19 21:15:30"
+  },
+  {
+    "nome": "Clinica Médica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "offline - http_200",
+    "codigo_http": 200,
+    "tempo_resposta": 1.559,
+    "json_valido": false,
+    "horario": "2026-05-19 21:15:31"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.567,
+    "json_valido": true,
+    "horario": "2026-05-19 21:16:33"
+  },
+  {
+    "nome": "Clinica Médica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "offline - http_200",
+    "codigo_http": 200,
+    "tempo_resposta": 1.51,
+    "json_valido": false,
+    "horario": "2026-05-19 21:16:33"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.661,
+    "json_valido": true,
+    "horario": "2026-05-19 21:17:35"
+  },
+  {
+    "nome": "Clinica Médica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "offline - http_200",
+    "codigo_http": 200,
+    "tempo_resposta": 1.112,
+    "json_valido": false,
+    "horario": "2026-05-19 21:17:36"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.519,
+    "json_valido": true,
+    "horario": "2026-05-19 21:18:37"
+  },
+  {
+    "nome": "Clinica Médica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "offline - http_200",
+    "codigo_http": 200,
+    "tempo_resposta": 1.579,
+    "json_valido": false,
+    "horario": "2026-05-19 21:18:37"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.477,
+    "json_valido": true,
+    "horario": "2026-05-19 21:19:48"
+  },
+  {
+    "nome": "Clinica Médica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.312,
+    "json_valido": false,
+    "horario": "2026-05-19 21:19:49"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.627,
+    "json_valido": true,
+    "horario": "2026-05-19 21:20:50"
+  },
+  {
+    "nome": "Clinica Médica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.5,
+    "json_valido": false,
+    "horario": "2026-05-19 21:20:51"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.495,
+    "json_valido": true,
+    "horario": "2026-05-19 21:20:57"
+  },
+  {
+    "nome": "Clinica Médica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.393,
+    "json_valido": false,
+    "horario": "2026-05-19 21:20:58"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.565,
+    "json_valido": true,
+    "horario": "2026-05-19 21:21:52"
+  },
+  {
+    "nome": "Clinica Médica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.749,
+    "json_valido": false,
+    "horario": "2026-05-19 21:21:53"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.572,
+    "json_valido": true,
+    "horario": "2026-05-19 21:22:55"
+  },
+  {
+    "nome": "Clinica Médica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.42,
+    "json_valido": false,
+    "horario": "2026-05-19 21:22:56"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.561,
+    "json_valido": true,
+    "horario": "2026-05-19 21:23:57"
+  },
+  {
+    "nome": "Clinica Médica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.542,
+    "json_valido": false,
+    "horario": "2026-05-19 21:23:58"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.497,
+    "json_valido": true,
+    "horario": "2026-05-19 21:24:59"
+  },
+  {
+    "nome": "Clinica Médica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.052,
+    "json_valido": false,
+    "horario": "2026-05-19 21:25:00"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.508,
+    "json_valido": true,
+    "horario": "2026-05-19 21:26:01"
+  },
+  {
+    "nome": "Clinica Médica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.012,
+    "json_valido": false,
+    "horario": "2026-05-19 21:26:02"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.439,
+    "json_valido": true,
+    "horario": "2026-05-19 21:27:03"
+  },
+  {
+    "nome": "Clinica Médica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.436,
+    "json_valido": false,
+    "horario": "2026-05-19 21:27:03"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.213,
+    "json_valido": true,
+    "horario": "2026-05-19 21:28:05"
+  },
+  {
+    "nome": "Clinica Médica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 2.283,
+    "json_valido": false,
+    "horario": "2026-05-19 21:28:06"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.534,
+    "json_valido": true,
+    "horario": "2026-05-19 21:29:08"
+  },
+  {
+    "nome": "Clinica Médica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.078,
+    "json_valido": false,
+    "horario": "2026-05-19 21:29:09"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.572,
+    "json_valido": true,
+    "horario": "2026-05-19 21:30:10"
+  },
+  {
+    "nome": "Clinica Médica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.5,
+    "json_valido": false,
+    "horario": "2026-05-19 21:30:11"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.557,
+    "json_valido": true,
+    "horario": "2026-05-19 21:31:12"
+  },
+  {
+    "nome": "Clinica Médica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.163,
+    "json_valido": false,
+    "horario": "2026-05-19 21:31:13"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.515,
+    "json_valido": true,
+    "horario": "2026-05-19 21:32:14"
+  },
+  {
+    "nome": "Clinica Médica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.09,
+    "json_valido": false,
+    "horario": "2026-05-19 21:32:15"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.694,
+    "json_valido": true,
+    "horario": "2026-05-19 21:33:16"
+  },
+  {
+    "nome": "Clinica Médica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 2.42,
+    "json_valido": false,
+    "horario": "2026-05-19 21:33:18"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.748,
+    "json_valido": true,
+    "horario": "2026-05-19 21:34:20"
+  },
+  {
+    "nome": "Clinica Médica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.332,
+    "json_valido": false,
+    "horario": "2026-05-19 21:34:21"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.913,
+    "json_valido": true,
+    "horario": "2026-05-19 21:35:23"
+  },
+  {
+    "nome": "Clinica Médica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.776,
+    "json_valido": false,
+    "horario": "2026-05-19 21:35:24"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.564,
+    "json_valido": true,
+    "horario": "2026-05-19 21:36:25"
+  },
+  {
+    "nome": "Clinica Médica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.056,
+    "json_valido": false,
+    "horario": "2026-05-19 21:36:26"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.608,
+    "json_valido": true,
+    "horario": "2026-05-19 21:37:27"
+  },
+  {
+    "nome": "Clinica Médica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.572,
+    "json_valido": false,
+    "horario": "2026-05-19 21:37:28"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.57,
+    "json_valido": true,
+    "horario": "2026-05-19 21:38:29"
+  },
+  {
+    "nome": "Clinica Médica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.532,
+    "json_valido": false,
+    "horario": "2026-05-19 21:38:30"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.55,
+    "json_valido": true,
+    "horario": "2026-05-19 21:39:32"
+  },
+  {
+    "nome": "Clinica Médica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.545,
+    "json_valido": false,
+    "horario": "2026-05-19 21:39:32"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.723,
+    "json_valido": true,
+    "horario": "2026-05-19 21:40:34"
+  },
+  {
+    "nome": "Clinica Médica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.231,
+    "json_valido": false,
+    "horario": "2026-05-19 21:40:35"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.796,
+    "json_valido": true,
+    "horario": "2026-05-19 21:41:36"
+  },
+  {
+    "nome": "Clinica Médica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.701,
+    "json_valido": false,
+    "horario": "2026-05-19 21:41:37"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.705,
+    "json_valido": true,
+    "horario": "2026-05-19 21:42:39"
+  },
+  {
+    "nome": "Clinica Médica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.624,
+    "json_valido": false,
+    "horario": "2026-05-19 21:42:39"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.611,
+    "json_valido": true,
+    "horario": "2026-05-19 21:43:41"
+  },
+  {
+    "nome": "Clinica Médica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.648,
+    "json_valido": false,
+    "horario": "2026-05-19 21:43:42"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.573,
+    "json_valido": true,
+    "horario": "2026-05-19 21:44:43"
+  },
+  {
+    "nome": "Clinica Médica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.915,
+    "json_valido": false,
+    "horario": "2026-05-19 21:44:44"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.696,
+    "json_valido": true,
+    "horario": "2026-05-19 21:45:46"
+  },
+  {
+    "nome": "Clinica Médica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.165,
+    "json_valido": false,
+    "horario": "2026-05-19 21:45:47"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.578,
+    "json_valido": true,
+    "horario": "2026-05-19 21:46:48"
+  },
+  {
+    "nome": "Clinica Médica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.734,
+    "json_valido": false,
+    "horario": "2026-05-19 21:46:49"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.62,
+    "json_valido": true,
+    "horario": "2026-05-19 21:47:51"
+  },
+  {
+    "nome": "Clinica Médica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.618,
+    "json_valido": false,
+    "horario": "2026-05-19 21:47:51"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.71,
+    "json_valido": true,
+    "horario": "2026-05-19 21:48:53"
+  },
+  {
+    "nome": "Clinica Médica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.487,
+    "json_valido": false,
+    "horario": "2026-05-19 21:48:54"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.476,
+    "json_valido": true,
+    "horario": "2026-05-19 21:49:55"
+  },
+  {
+    "nome": "Clinica Médica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.572,
+    "json_valido": false,
+    "horario": "2026-05-19 21:49:56"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.615,
+    "json_valido": true,
+    "horario": "2026-05-19 21:50:58"
+  },
+  {
+    "nome": "Clinica Médica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.564,
+    "json_valido": false,
+    "horario": "2026-05-19 21:50:58"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.677,
+    "json_valido": true,
+    "horario": "2026-05-19 21:52:00"
+  },
+  {
+    "nome": "Clinica Médica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.654,
+    "json_valido": false,
+    "horario": "2026-05-19 21:52:01"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.67,
+    "json_valido": true,
+    "horario": "2026-05-19 21:53:02"
+  },
+  {
+    "nome": "Clinica Médica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.639,
+    "json_valido": false,
+    "horario": "2026-05-19 21:53:03"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.694,
+    "json_valido": true,
+    "horario": "2026-05-19 21:54:05"
+  },
+  {
+    "nome": "Clinica Médica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.171,
+    "json_valido": false,
+    "horario": "2026-05-19 21:54:06"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.706,
+    "json_valido": true,
+    "horario": "2026-05-19 21:55:07"
+  },
+  {
+    "nome": "Clinica Médica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.235,
+    "json_valido": false,
+    "horario": "2026-05-19 21:55:08"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.591,
+    "json_valido": true,
+    "horario": "2026-05-19 21:56:09"
+  },
+  {
+    "nome": "Clinica Médica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.604,
+    "json_valido": false,
+    "horario": "2026-05-19 21:56:10"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.553,
+    "json_valido": true,
+    "horario": "2026-05-19 21:57:11"
+  },
+  {
+    "nome": "Clinica Médica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.617,
+    "json_valido": false,
+    "horario": "2026-05-19 21:57:12"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.706,
+    "json_valido": true,
+    "horario": "2026-05-19 21:58:14"
+  },
+  {
+    "nome": "Clinica Médica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.491,
+    "json_valido": false,
+    "horario": "2026-05-19 21:58:14"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.698,
+    "json_valido": true,
+    "horario": "2026-05-19 21:59:16"
+  },
+  {
+    "nome": "Clinica Médica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.146,
+    "json_valido": false,
+    "horario": "2026-05-19 21:59:17"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.558,
+    "json_valido": true,
+    "horario": "2026-05-19 22:00:48"
+  },
+  {
+    "nome": "Clinica Java",
+    "url": "https://clinica-ianes.onrender.com/login",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.688,
+    "json_valido": false,
+    "horario": "2026-05-19 22:00:48"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.457,
+    "json_valido": true,
+    "horario": "2026-05-19 22:01:30"
+  },
+  {
+    "nome": "Temperatura",
+    "url": "https://clinica-ianes.onrender.com/login",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.697,
+    "json_valido": false,
+    "horario": "2026-05-19 22:01:30"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.459,
+    "json_valido": true,
+    "horario": "2026-05-19 22:01:55"
+  },
+  {
+    "nome": "temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 22:01:56"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.445,
+    "json_valido": true,
+    "horario": "2026-05-19 22:03:06"
+  },
+  {
+    "nome": "temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 22:03:07"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.406,
+    "json_valido": true,
+    "horario": "2026-05-19 22:04:17"
+  },
+  {
+    "nome": "temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 22:04:18"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.596,
+    "json_valido": true,
+    "horario": "2026-05-19 22:05:28"
+  },
+  {
+    "nome": "temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 22:05:29"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.666,
+    "json_valido": true,
+    "horario": "2026-05-19 22:06:40"
+  },
+  {
+    "nome": "temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 22:06:40"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.586,
+    "json_valido": true,
+    "horario": "2026-05-19 22:07:51"
+  },
+  {
+    "nome": "temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 22:07:52"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.655,
+    "json_valido": true,
+    "horario": "2026-05-19 22:09:03"
+  },
+  {
+    "nome": "temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 22:09:04"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.53,
+    "json_valido": true,
+    "horario": "2026-05-19 22:10:14"
+  },
+  {
+    "nome": "temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 22:10:15"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.665,
+    "json_valido": true,
+    "horario": "2026-05-19 22:11:26"
+  },
+  {
+    "nome": "temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 22:11:26"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.585,
+    "json_valido": true,
+    "horario": "2026-05-19 22:12:37"
+  },
+  {
+    "nome": "temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 22:12:38"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.567,
+    "json_valido": true,
+    "horario": "2026-05-19 22:13:48"
+  },
+  {
+    "nome": "temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 22:13:49"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.466,
+    "json_valido": true,
+    "horario": "2026-05-19 22:15:00"
+  },
+  {
+    "nome": "temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 22:15:00"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.609,
+    "json_valido": true,
+    "horario": "2026-05-19 22:16:11"
+  },
+  {
+    "nome": "temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 22:16:11"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.579,
+    "json_valido": true,
+    "horario": "2026-05-19 22:17:22"
+  },
+  {
+    "nome": "temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 22:17:23"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.501,
+    "json_valido": true,
+    "horario": "2026-05-19 22:18:34"
+  },
+  {
+    "nome": "temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 22:18:34"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.545,
+    "json_valido": true,
+    "horario": "2026-05-19 22:19:45"
+  },
+  {
+    "nome": "temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 22:19:46"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.783,
+    "json_valido": true,
+    "horario": "2026-05-19 22:20:56"
+  },
+  {
+    "nome": "temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 22:20:57"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.495,
+    "json_valido": true,
+    "horario": "2026-05-19 22:22:08"
+  },
+  {
+    "nome": "temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 22:22:08"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.484,
+    "json_valido": true,
+    "horario": "2026-05-19 22:23:19"
+  },
+  {
+    "nome": "temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 22:23:19"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.62,
+    "json_valido": true,
+    "horario": "2026-05-19 22:24:30"
+  },
+  {
+    "nome": "temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 22:24:31"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.499,
+    "json_valido": true,
+    "horario": "2026-05-19 22:25:41"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.445,
+    "json_valido": true,
+    "horario": "2026-05-19 22:26:05"
+  },
+  {
+    "nome": "Temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 22:26:06"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.464,
+    "json_valido": true,
+    "horario": "2026-05-19 22:27:16"
+  },
+  {
+    "nome": "Temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 22:27:17"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.481,
+    "json_valido": true,
+    "horario": "2026-05-19 22:28:27"
+  },
+  {
+    "nome": "Temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 22:28:28"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.463,
+    "json_valido": true,
+    "horario": "2026-05-19 22:29:38"
+  },
+  {
+    "nome": "Temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 22:29:39"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.553,
+    "json_valido": true,
+    "horario": "2026-05-19 22:30:50"
+  },
+  {
+    "nome": "Temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 22:30:50"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.496,
+    "json_valido": true,
+    "horario": "2026-05-19 22:32:01"
+  },
+  {
+    "nome": "Temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 22:32:01"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.56,
+    "json_valido": true,
+    "horario": "2026-05-19 22:33:12"
+  },
+  {
+    "nome": "Temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 22:33:14"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.475,
+    "json_valido": true,
+    "horario": "2026-05-19 22:34:24"
+  },
+  {
+    "nome": "Temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 22:34:25"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.471,
+    "json_valido": true,
+    "horario": "2026-05-19 22:35:36"
+  },
+  {
+    "nome": "Temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 22:35:36"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.449,
+    "json_valido": true,
+    "horario": "2026-05-19 22:36:47"
+  },
+  {
+    "nome": "Temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 22:36:47"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.483,
+    "json_valido": true,
+    "horario": "2026-05-19 22:37:58"
+  },
+  {
+    "nome": "Temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 4.459,
+    "json_valido": false,
+    "horario": "2026-05-19 22:37:58"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.476,
+    "json_valido": true,
+    "horario": "2026-05-19 22:39:03"
+  },
+  {
+    "nome": "Temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.618,
+    "json_valido": false,
+    "horario": "2026-05-19 22:39:03"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.415,
+    "json_valido": true,
+    "horario": "2026-05-19 22:40:05"
+  },
+  {
+    "nome": "Temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.729,
+    "json_valido": false,
+    "horario": "2026-05-19 22:40:05"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.472,
+    "json_valido": true,
+    "horario": "2026-05-19 22:41:07"
+  },
+  {
+    "nome": "Temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.613,
+    "json_valido": false,
+    "horario": "2026-05-19 22:41:08"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.411,
+    "json_valido": true,
+    "horario": "2026-05-19 22:42:09"
+  },
+  {
+    "nome": "Temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.492,
+    "json_valido": false,
+    "horario": "2026-05-19 22:42:10"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.431,
+    "json_valido": true,
+    "horario": "2026-05-19 22:43:11"
+  },
+  {
+    "nome": "Temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.837,
+    "json_valido": false,
+    "horario": "2026-05-19 22:43:12"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.436,
+    "json_valido": true,
+    "horario": "2026-05-19 22:44:14"
+  },
+  {
+    "nome": "Temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.574,
+    "json_valido": false,
+    "horario": "2026-05-19 22:44:14"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.464,
+    "json_valido": true,
+    "horario": "2026-05-19 22:45:16"
+  },
+  {
+    "nome": "Temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.834,
+    "json_valido": false,
+    "horario": "2026-05-19 22:45:16"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.445,
+    "json_valido": true,
+    "horario": "2026-05-19 22:46:19"
+  },
+  {
+    "nome": "Temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.391,
+    "json_valido": false,
+    "horario": "2026-05-19 22:46:19"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.577,
+    "json_valido": true,
+    "horario": "2026-05-19 22:47:21"
+  },
+  {
+    "nome": "Temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.769,
+    "json_valido": false,
+    "horario": "2026-05-19 22:47:21"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.461,
+    "json_valido": true,
+    "horario": "2026-05-19 22:48:23"
+  },
+  {
+    "nome": "Temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.408,
+    "json_valido": false,
+    "horario": "2026-05-19 22:48:24"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.477,
+    "json_valido": true,
+    "horario": "2026-05-19 22:49:25"
+  },
+  {
+    "nome": "Temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.343,
+    "json_valido": false,
+    "horario": "2026-05-19 22:49:26"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.407,
+    "json_valido": true,
+    "horario": "2026-05-19 22:50:27"
+  },
+  {
+    "nome": "Temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.671,
+    "json_valido": false,
+    "horario": "2026-05-19 22:50:27"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.488,
+    "json_valido": true,
+    "horario": "2026-05-19 22:51:29"
+  },
+  {
+    "nome": "Temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.391,
+    "json_valido": false,
+    "horario": "2026-05-19 22:51:30"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.437,
+    "json_valido": true,
+    "horario": "2026-05-19 22:52:31"
+  },
+  {
+    "nome": "Temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.244,
+    "json_valido": false,
+    "horario": "2026-05-19 22:52:32"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.43,
+    "json_valido": true,
+    "horario": "2026-05-19 22:53:33"
+  },
+  {
+    "nome": "Temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.272,
+    "json_valido": false,
+    "horario": "2026-05-19 22:53:33"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.45,
+    "json_valido": true,
+    "horario": "2026-05-19 22:54:35"
+  },
+  {
+    "nome": "Temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.844,
+    "json_valido": false,
+    "horario": "2026-05-19 22:54:35"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.425,
+    "json_valido": true,
+    "horario": "2026-05-19 22:55:37"
+  },
+  {
+    "nome": "Temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.699,
+    "json_valido": false,
+    "horario": "2026-05-19 22:55:38"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.44,
+    "json_valido": true,
+    "horario": "2026-05-19 22:56:39"
+  },
+  {
+    "nome": "Temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.318,
+    "json_valido": false,
+    "horario": "2026-05-19 22:56:40"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.473,
+    "json_valido": true,
+    "horario": "2026-05-19 22:57:41"
+  },
+  {
+    "nome": "Temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.295,
+    "json_valido": false,
+    "horario": "2026-05-19 22:57:42"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.512,
+    "json_valido": true,
+    "horario": "2026-05-19 22:58:43"
+  },
+  {
+    "nome": "Temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.459,
+    "json_valido": false,
+    "horario": "2026-05-19 22:58:45"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.639,
+    "json_valido": true,
+    "horario": "2026-05-19 22:59:46"
+  },
+  {
+    "nome": "Temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.321,
+    "json_valido": false,
+    "horario": "2026-05-19 22:59:47"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.53,
+    "json_valido": true,
+    "horario": "2026-05-19 23:00:48"
+  },
+  {
+    "nome": "Temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.232,
+    "json_valido": false,
+    "horario": "2026-05-19 23:00:49"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.606,
+    "json_valido": true,
+    "horario": "2026-05-19 23:01:50"
+  },
+  {
+    "nome": "Temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.769,
+    "json_valido": false,
+    "horario": "2026-05-19 23:01:51"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.539,
+    "json_valido": true,
+    "horario": "2026-05-19 23:02:53"
+  },
+  {
+    "nome": "Temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.83,
+    "json_valido": false,
+    "horario": "2026-05-19 23:02:53"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.582,
+    "json_valido": true,
+    "horario": "2026-05-19 23:03:55"
+  },
+  {
+    "nome": "Temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.73,
+    "json_valido": false,
+    "horario": "2026-05-19 23:03:56"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.52,
+    "json_valido": true,
+    "horario": "2026-05-19 23:04:58"
+  },
+  {
+    "nome": "Temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.759,
+    "json_valido": false,
+    "horario": "2026-05-19 23:04:59"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.59,
+    "json_valido": true,
+    "horario": "2026-05-19 23:06:01"
+  },
+  {
+    "nome": "Temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.987,
+    "json_valido": false,
+    "horario": "2026-05-19 23:06:02"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.598,
+    "json_valido": true,
+    "horario": "2026-05-19 23:07:04"
+  },
+  {
+    "nome": "Temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.234,
+    "json_valido": false,
+    "horario": "2026-05-19 23:07:05"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.6,
+    "json_valido": true,
+    "horario": "2026-05-19 23:08:06"
+  },
+  {
+    "nome": "Temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.871,
+    "json_valido": false,
+    "horario": "2026-05-19 23:08:07"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.567,
+    "json_valido": true,
+    "horario": "2026-05-19 23:09:09"
+  },
+  {
+    "nome": "Temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.776,
+    "json_valido": false,
+    "horario": "2026-05-19 23:09:09"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.607,
+    "json_valido": true,
+    "horario": "2026-05-19 23:10:11"
+  },
+  {
+    "nome": "Temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.363,
+    "json_valido": false,
+    "horario": "2026-05-19 23:10:12"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.64,
+    "json_valido": true,
+    "horario": "2026-05-19 23:11:13"
+  },
+  {
+    "nome": "Temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.923,
+    "json_valido": false,
+    "horario": "2026-05-19 23:11:14"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.681,
+    "json_valido": true,
+    "horario": "2026-05-19 23:12:16"
+  },
+  {
+    "nome": "Temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.406,
+    "json_valido": false,
+    "horario": "2026-05-19 23:12:17"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.57,
+    "json_valido": true,
+    "horario": "2026-05-19 23:13:18"
+  },
+  {
+    "nome": "Temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.777,
+    "json_valido": false,
+    "horario": "2026-05-19 23:13:19"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.652,
+    "json_valido": true,
+    "horario": "2026-05-19 23:14:21"
+  },
+  {
+    "nome": "Temperatura",
+    "url": "https://temperatura-esp32.onrender.com/painel",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.816,
+    "json_valido": false,
+    "horario": "2026-05-19 23:14:21"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.549,
+    "json_valido": true,
+    "horario": "2026-05-19 23:15:30"
+  },
+  {
+    "nome": "Extrator XML",
+    "url": "https://pcomp.onrender.com/",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 23:15:31"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.592,
+    "json_valido": true,
+    "horario": "2026-05-19 23:16:42"
+  },
+  {
+    "nome": "Extrator XML",
+    "url": "https://pcomp.onrender.com/",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 6.24,
+    "json_valido": false,
+    "horario": "2026-05-19 23:16:42"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.448,
+    "json_valido": true,
+    "horario": "2026-05-19 23:17:24"
+  },
+  {
+    "nome": "Clinica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 23:17:25"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.59,
+    "json_valido": true,
+    "horario": "2026-05-19 23:18:36"
+  },
+  {
+    "nome": "Clinica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 23:18:36"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.725,
+    "json_valido": true,
+    "horario": "2026-05-19 23:18:59"
+  },
+  {
+    "nome": "Clinica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 23:19:00"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.578,
+    "json_valido": true,
+    "horario": "2026-05-19 23:19:47"
+  },
+  {
+    "nome": "Clinica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 7.642,
+    "json_valido": false,
+    "horario": "2026-05-19 23:19:48"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.614,
+    "json_valido": true,
+    "horario": "2026-05-19 23:20:56"
+  },
+  {
+    "nome": "Clinica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.549,
+    "json_valido": false,
+    "horario": "2026-05-19 23:20:56"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.638,
+    "json_valido": true,
+    "horario": "2026-05-19 23:21:58"
+  },
+  {
+    "nome": "Clinica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.715,
+    "json_valido": false,
+    "horario": "2026-05-19 23:21:59"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.556,
+    "json_valido": true,
+    "horario": "2026-05-19 23:23:00"
+  },
+  {
+    "nome": "Clinica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.52,
+    "json_valido": false,
+    "horario": "2026-05-19 23:23:01"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.617,
+    "json_valido": true,
+    "horario": "2026-05-19 23:24:03"
+  },
+  {
+    "nome": "Clinica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.627,
+    "json_valido": false,
+    "horario": "2026-05-19 23:24:03"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.455,
+    "json_valido": true,
+    "horario": "2026-05-19 23:25:05"
+  },
+  {
+    "nome": "Clinica",
+    "url": "https://clinica-ianes.onrender.com/",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.629,
+    "json_valido": false,
+    "horario": "2026-05-19 23:25:05"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.421,
+    "json_valido": true,
+    "horario": "2026-05-19 23:26:16"
+  },
+  {
+    "nome": "crm",
+    "url": "https://ca-crm-lufu.onrender.com",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 23:26:16"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.556,
+    "json_valido": true,
+    "horario": "2026-05-19 23:27:27"
+  },
+  {
+    "nome": "crm",
+    "url": "https://ca-crm-lufu.onrender.com",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 23:27:27"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.698,
+    "json_valido": true,
+    "horario": "2026-05-19 23:28:38"
+  },
+  {
+    "nome": "crm",
+    "url": "https://ca-crm-lufu.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 6.513,
+    "json_valido": false,
+    "horario": "2026-05-19 23:28:39"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.558,
+    "json_valido": true,
+    "horario": "2026-05-19 23:29:45"
+  },
+  {
+    "nome": "crm",
+    "url": "https://ca-crm-lufu.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.444,
+    "json_valido": false,
+    "horario": "2026-05-19 23:29:46"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.81,
+    "json_valido": true,
+    "horario": "2026-05-19 23:30:47"
+  },
+  {
+    "nome": "crm",
+    "url": "https://ca-crm-lufu.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.546,
+    "json_valido": false,
+    "horario": "2026-05-19 23:30:48"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.793,
+    "json_valido": true,
+    "horario": "2026-05-19 23:31:50"
+  },
+  {
+    "nome": "crm",
+    "url": "https://ca-crm-lufu.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.521,
+    "json_valido": false,
+    "horario": "2026-05-19 23:31:51"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.45,
+    "json_valido": true,
+    "horario": "2026-05-19 23:32:31"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.47,
+    "json_valido": true,
+    "horario": "2026-05-19 23:34:11"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.441,
+    "json_valido": true,
+    "horario": "2026-05-19 23:35:02"
+  },
+  {
+    "nome": "todolist",
+    "url": "https://meu-gestor-de-tarefas-app.onrender.com",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 23:35:03"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.65,
+    "json_valido": true,
+    "horario": "2026-05-19 23:36:13"
+  },
+  {
+    "nome": "todolist",
+    "url": "https://meu-gestor-de-tarefas-app.onrender.com",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 23:36:14"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.534,
+    "json_valido": true,
+    "horario": "2026-05-19 23:37:25"
+  },
+  {
+    "nome": "todolist",
+    "url": "https://meu-gestor-de-tarefas-app.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 14.51,
+    "json_valido": false,
+    "horario": "2026-05-19 23:37:25"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.645,
+    "json_valido": true,
+    "horario": "2026-05-19 23:38:40"
+  },
+  {
+    "nome": "todolist",
+    "url": "https://meu-gestor-de-tarefas-app.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.482,
+    "json_valido": false,
+    "horario": "2026-05-19 23:38:41"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.483,
+    "json_valido": true,
+    "horario": "2026-05-19 23:39:42"
+  },
+  {
+    "nome": "todolist",
+    "url": "https://meu-gestor-de-tarefas-app.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.076,
+    "json_valido": false,
+    "horario": "2026-05-19 23:39:43"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.568,
+    "json_valido": true,
+    "horario": "2026-05-19 23:40:44"
+  },
+  {
+    "nome": "todolist",
+    "url": "https://meu-gestor-de-tarefas-app.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.114,
+    "json_valido": false,
+    "horario": "2026-05-19 23:40:45"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.684,
+    "json_valido": true,
+    "horario": "2026-05-19 23:41:46"
+  },
+  {
+    "nome": "todolist",
+    "url": "https://meu-gestor-de-tarefas-app.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.478,
+    "json_valido": false,
+    "horario": "2026-05-19 23:41:47"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.581,
+    "json_valido": true,
+    "horario": "2026-05-19 23:42:48"
+  },
+  {
+    "nome": "todolist",
+    "url": "https://meu-gestor-de-tarefas-app.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.517,
+    "json_valido": false,
+    "horario": "2026-05-19 23:42:49"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.467,
+    "json_valido": true,
+    "horario": "2026-05-19 23:43:50"
+  },
+  {
+    "nome": "todolist",
+    "url": "https://meu-gestor-de-tarefas-app.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.018,
+    "json_valido": false,
+    "horario": "2026-05-19 23:43:51"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.495,
+    "json_valido": true,
+    "horario": "2026-05-19 23:44:52"
+  },
+  {
+    "nome": "todolist",
+    "url": "https://meu-gestor-de-tarefas-app.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.369,
+    "json_valido": false,
+    "horario": "2026-05-19 23:44:53"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.45,
+    "json_valido": true,
+    "horario": "2026-05-19 23:45:54"
+  },
+  {
+    "nome": "todolist",
+    "url": "https://meu-gestor-de-tarefas-app.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.441,
+    "json_valido": false,
+    "horario": "2026-05-19 23:45:55"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.463,
+    "json_valido": true,
+    "horario": "2026-05-19 23:46:56"
+  },
+  {
+    "nome": "todolist",
+    "url": "https://meu-gestor-de-tarefas-app.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.409,
+    "json_valido": false,
+    "horario": "2026-05-19 23:46:57"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.445,
+    "json_valido": true,
+    "horario": "2026-05-19 23:50:11"
+  },
+  {
+    "nome": "Manipulador de XML",
+    "url": "https://pcomp.onrender.com",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 23:50:12"
+  },
+  {
+    "nome": "Clinica Médica Ianes",
+    "url": "https://clinica-ianes.onrender.com",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 23:50:22"
+  },
+  {
+    "nome": "Dinonex",
+    "url": "https://dimonex.onrender.com",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 23:50:33"
+  },
+  {
+    "nome": "Todo List App",
+    "url": "https://meu-gestor-de-tarefas-app.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.91,
+    "json_valido": false,
+    "horario": "2026-05-19 23:50:43"
+  },
+  {
+    "nome": "CRM C.A.",
+    "url": "https://ca-crm-lufu.onrender.com",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 23:50:44"
+  },
+  {
+    "nome": "Temperatura ESP32",
+    "url": "https://temperatura-esp32.onrender.com",
+    "status": "offline - http_404",
+    "codigo_http": 404,
+    "tempo_resposta": 0.773,
+    "json_valido": true,
+    "horario": "2026-05-19 23:50:55"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.768,
+    "json_valido": true,
+    "horario": "2026-05-19 23:51:56"
+  },
+  {
+    "nome": "Manipulador de XML",
+    "url": "https://pcomp.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 9.399,
+    "json_valido": false,
+    "horario": "2026-05-19 23:51:57"
+  },
+  {
+    "nome": "Clinica Médica Ianes",
+    "url": "https://clinica-ianes.onrender.com",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 23:52:06"
+  },
+  {
+    "nome": "Dinonex",
+    "url": "https://dimonex.onrender.com",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 23:52:17"
+  },
+  {
+    "nome": "Todo List App",
+    "url": "https://meu-gestor-de-tarefas-app.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.236,
+    "json_valido": false,
+    "horario": "2026-05-19 23:52:27"
+  },
+  {
+    "nome": "CRM C.A.",
+    "url": "https://ca-crm-lufu.onrender.com",
+    "status": "offline - timeout",
+    "codigo_http": null,
+    "tempo_resposta": null,
+    "json_valido": null,
+    "horario": "2026-05-19 23:52:29"
+  },
+  {
+    "nome": "Temperatura ESP32",
+    "url": "https://temperatura-esp32.onrender.com",
+    "status": "offline - http_404",
+    "codigo_http": 404,
+    "tempo_resposta": 0.823,
+    "json_valido": true,
+    "horario": "2026-05-19 23:52:40"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.524,
+    "json_valido": true,
+    "horario": "2026-05-19 23:53:40"
+  },
+  {
+    "nome": "Manipulador de XML",
+    "url": "https://pcomp.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.288,
+    "json_valido": false,
+    "horario": "2026-05-19 23:53:41"
+  },
+  {
+    "nome": "Clinica Médica Ianes",
+    "url": "https://clinica-ianes.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 7.296,
+    "json_valido": false,
+    "horario": "2026-05-19 23:53:43"
+  },
+  {
+    "nome": "Dinonex",
+    "url": "https://dimonex.onrender.com",
+    "status": "autenticacao falhou",
+    "codigo_http": 403,
+    "tempo_resposta": 1.379,
+    "json_valido": false,
+    "horario": "2026-05-19 23:53:50"
+  },
+  {
+    "nome": "Todo List App",
+    "url": "https://meu-gestor-de-tarefas-app.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.432,
+    "json_valido": false,
+    "horario": "2026-05-19 23:53:51"
+  },
+  {
+    "nome": "CRM C.A.",
+    "url": "https://ca-crm-lufu.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 7.221,
+    "json_valido": false,
+    "horario": "2026-05-19 23:53:53"
+  },
+  {
+    "nome": "Temperatura ESP32",
+    "url": "https://temperatura-esp32.onrender.com",
+    "status": "offline - http_404",
+    "codigo_http": 404,
+    "tempo_resposta": 0.84,
+    "json_valido": true,
+    "horario": "2026-05-19 23:54:00"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.557,
+    "json_valido": true,
+    "horario": "2026-05-19 23:55:01"
+  },
+  {
+    "nome": "Manipulador de XML",
+    "url": "https://pcomp.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.691,
+    "json_valido": false,
+    "horario": "2026-05-19 23:55:02"
+  },
+  {
+    "nome": "Clinica Médica Ianes",
+    "url": "https://clinica-ianes.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.494,
+    "json_valido": false,
+    "horario": "2026-05-19 23:55:02"
+  },
+  {
+    "nome": "Dinonex",
+    "url": "https://dimonex.onrender.com",
+    "status": "autenticacao falhou",
+    "codigo_http": 403,
+    "tempo_resposta": 1.195,
+    "json_valido": false,
+    "horario": "2026-05-19 23:55:04"
+  },
+  {
+    "nome": "Todo List App",
+    "url": "https://meu-gestor-de-tarefas-app.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.461,
+    "json_valido": false,
+    "horario": "2026-05-19 23:55:05"
+  },
+  {
+    "nome": "CRM C.A.",
+    "url": "https://ca-crm-lufu.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.16,
+    "json_valido": false,
+    "horario": "2026-05-19 23:55:07"
+  },
+  {
+    "nome": "Temperatura ESP32",
+    "url": "https://temperatura-esp32.onrender.com",
+    "status": "offline - http_404",
+    "codigo_http": 404,
+    "tempo_resposta": 0.802,
+    "json_valido": true,
+    "horario": "2026-05-19 23:55:08"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.587,
+    "json_valido": true,
+    "horario": "2026-05-19 23:56:09"
+  },
+  {
+    "nome": "Manipulador de XML",
+    "url": "https://pcomp.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.31,
+    "json_valido": false,
+    "horario": "2026-05-19 23:56:10"
+  },
+  {
+    "nome": "Clinica Médica Ianes",
+    "url": "https://clinica-ianes.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.146,
+    "json_valido": false,
+    "horario": "2026-05-19 23:56:11"
+  },
+  {
+    "nome": "Dinonex",
+    "url": "https://dimonex.onrender.com",
+    "status": "autenticacao falhou",
+    "codigo_http": 403,
+    "tempo_resposta": 1.274,
+    "json_valido": false,
+    "horario": "2026-05-19 23:56:12"
+  },
+  {
+    "nome": "Todo List App",
+    "url": "https://meu-gestor-de-tarefas-app.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.556,
+    "json_valido": false,
+    "horario": "2026-05-19 23:56:14"
+  },
+  {
+    "nome": "CRM C.A.",
+    "url": "https://ca-crm-lufu.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.781,
+    "json_valido": false,
+    "horario": "2026-05-19 23:56:15"
+  },
+  {
+    "nome": "Temperatura ESP32",
+    "url": "https://temperatura-esp32.onrender.com",
+    "status": "offline - http_404",
+    "codigo_http": 404,
+    "tempo_resposta": 1.127,
+    "json_valido": true,
+    "horario": "2026-05-19 23:56:17"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.568,
+    "json_valido": true,
+    "horario": "2026-05-19 23:57:18"
+  },
+  {
+    "nome": "Manipulador de XML",
+    "url": "https://pcomp.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.746,
+    "json_valido": false,
+    "horario": "2026-05-19 23:57:19"
+  },
+  {
+    "nome": "Clinica Médica Ianes",
+    "url": "https://clinica-ianes.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.122,
+    "json_valido": false,
+    "horario": "2026-05-19 23:57:20"
+  },
+  {
+    "nome": "Dinonex",
+    "url": "https://dimonex.onrender.com",
+    "status": "autenticacao falhou",
+    "codigo_http": 403,
+    "tempo_resposta": 1.251,
+    "json_valido": false,
+    "horario": "2026-05-19 23:57:21"
+  },
+  {
+    "nome": "Todo List App",
+    "url": "https://meu-gestor-de-tarefas-app.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.531,
+    "json_valido": false,
+    "horario": "2026-05-19 23:57:22"
+  },
+  {
+    "nome": "CRM C.A.",
+    "url": "https://ca-crm-lufu.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.486,
+    "json_valido": false,
+    "horario": "2026-05-19 23:57:24"
+  },
+  {
+    "nome": "Temperatura ESP32",
+    "url": "https://temperatura-esp32.onrender.com",
+    "status": "offline - http_404",
+    "codigo_http": 404,
+    "tempo_resposta": 1.102,
+    "json_valido": true,
+    "horario": "2026-05-19 23:57:25"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.505,
+    "json_valido": true,
+    "horario": "2026-05-19 23:58:26"
+  },
+  {
+    "nome": "Manipulador de XML",
+    "url": "https://pcomp.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.701,
+    "json_valido": false,
+    "horario": "2026-05-19 23:58:27"
+  },
+  {
+    "nome": "Clinica Médica Ianes",
+    "url": "https://clinica-ianes.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.574,
+    "json_valido": false,
+    "horario": "2026-05-19 23:58:28"
+  },
+  {
+    "nome": "Dinonex",
+    "url": "https://dimonex.onrender.com",
+    "status": "autenticacao falhou",
+    "codigo_http": 403,
+    "tempo_resposta": 1.118,
+    "json_valido": false,
+    "horario": "2026-05-19 23:58:29"
+  },
+  {
+    "nome": "Todo List App",
+    "url": "https://meu-gestor-de-tarefas-app.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.352,
+    "json_valido": false,
+    "horario": "2026-05-19 23:58:31"
+  },
+  {
+    "nome": "CRM C.A.",
+    "url": "https://ca-crm-lufu.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.416,
+    "json_valido": false,
+    "horario": "2026-05-19 23:58:32"
+  },
+  {
+    "nome": "Temperatura ESP32",
+    "url": "https://temperatura-esp32.onrender.com",
+    "status": "offline - http_404",
+    "codigo_http": 404,
+    "tempo_resposta": 1.201,
+    "json_valido": true,
+    "horario": "2026-05-19 23:58:33"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.446,
+    "json_valido": true,
+    "horario": "2026-05-19 23:59:35"
+  },
+  {
+    "nome": "Manipulador de XML",
+    "url": "https://pcomp.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.685,
+    "json_valido": false,
+    "horario": "2026-05-19 23:59:35"
+  },
+  {
+    "nome": "Clinica Médica Ianes",
+    "url": "https://clinica-ianes.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.356,
+    "json_valido": false,
+    "horario": "2026-05-19 23:59:36"
+  },
+  {
+    "nome": "Dinonex",
+    "url": "https://dimonex.onrender.com",
+    "status": "autenticacao falhou",
+    "codigo_http": 403,
+    "tempo_resposta": 1.243,
+    "json_valido": false,
+    "horario": "2026-05-19 23:59:37"
+  },
+  {
+    "nome": "Todo List App",
+    "url": "https://meu-gestor-de-tarefas-app.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.094,
+    "json_valido": false,
+    "horario": "2026-05-19 23:59:39"
+  },
+  {
+    "nome": "CRM C.A.",
+    "url": "https://ca-crm-lufu.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.974,
+    "json_valido": false,
+    "horario": "2026-05-19 23:59:40"
+  },
+  {
+    "nome": "Temperatura ESP32",
+    "url": "https://temperatura-esp32.onrender.com",
+    "status": "offline - http_404",
+    "codigo_http": 404,
+    "tempo_resposta": 0.822,
+    "json_valido": true,
+    "horario": "2026-05-19 23:59:41"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.451,
+    "json_valido": true,
+    "horario": "2026-05-20 00:00:38"
+  },
+  {
+    "nome": "Manipulador de XML",
+    "url": "https://pcomp.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.456,
+    "json_valido": false,
+    "horario": "2026-05-20 00:00:38"
+  },
+  {
+    "nome": "Clinica Médica Ianes",
+    "url": "https://clinica-ianes.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.308,
+    "json_valido": false,
+    "horario": "2026-05-20 00:00:40"
+  },
+  {
+    "nome": "Dinonex",
+    "url": "https://dimonex.onrender.com",
+    "status": "autenticacao falhou",
+    "codigo_http": 403,
+    "tempo_resposta": 1.14,
+    "json_valido": false,
+    "horario": "2026-05-20 00:00:41"
+  },
+  {
+    "nome": "Todo List App",
+    "url": "https://meu-gestor-de-tarefas-app.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.463,
+    "json_valido": false,
+    "horario": "2026-05-20 00:00:43"
+  },
+  {
+    "nome": "CRM C.A.",
+    "url": "https://ca-crm-lufu.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.392,
+    "json_valido": false,
+    "horario": "2026-05-20 00:00:44"
+  },
+  {
+    "nome": "Temperatura ESP32",
+    "url": "https://temperatura-esp32.onrender.com",
+    "status": "offline - http_404",
+    "codigo_http": 404,
+    "tempo_resposta": 1.035,
+    "json_valido": true,
+    "horario": "2026-05-20 00:00:46"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.602,
+    "json_valido": true,
+    "horario": "2026-05-20 00:01:47"
+  },
+  {
+    "nome": "Manipulador de XML",
+    "url": "https://pcomp.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.817,
+    "json_valido": false,
+    "horario": "2026-05-20 00:01:47"
+  },
+  {
+    "nome": "Clinica Médica Ianes",
+    "url": "https://clinica-ianes.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.136,
+    "json_valido": false,
+    "horario": "2026-05-20 00:01:48"
+  },
+  {
+    "nome": "Dinonex",
+    "url": "https://dimonex.onrender.com",
+    "status": "autenticacao falhou",
+    "codigo_http": 403,
+    "tempo_resposta": 0.782,
+    "json_valido": false,
+    "horario": "2026-05-20 00:01:49"
+  },
+  {
+    "nome": "Todo List App",
+    "url": "https://meu-gestor-de-tarefas-app.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.677,
+    "json_valido": false,
+    "horario": "2026-05-20 00:01:50"
+  },
+  {
+    "nome": "CRM C.A.",
+    "url": "https://ca-crm-lufu.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.93,
+    "json_valido": false,
+    "horario": "2026-05-20 00:01:52"
+  },
+  {
+    "nome": "Temperatura ESP32",
+    "url": "https://temperatura-esp32.onrender.com",
+    "status": "offline - http_404",
+    "codigo_http": 404,
+    "tempo_resposta": 1.208,
+    "json_valido": true,
+    "horario": "2026-05-20 00:01:53"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.574,
+    "json_valido": true,
+    "horario": "2026-05-20 00:02:31"
+  },
+  {
+    "nome": "Manipulador de XML",
+    "url": "https://pcomp.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.126,
+    "json_valido": false,
+    "horario": "2026-05-20 00:02:32"
+  },
+  {
+    "nome": "Clinica Médica Ianes",
+    "url": "https://clinica-ianes.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.006,
+    "json_valido": false,
+    "horario": "2026-05-20 00:02:33"
+  },
+  {
+    "nome": "Dinonex",
+    "url": "https://dimonex.onrender.com",
+    "status": "autenticacao falhou",
+    "codigo_http": 403,
+    "tempo_resposta": 1.04,
+    "json_valido": false,
+    "horario": "2026-05-20 00:02:34"
+  },
+  {
+    "nome": "Todo List App",
+    "url": "https://meu-gestor-de-tarefas-app.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.264,
+    "json_valido": false,
+    "horario": "2026-05-20 00:02:40"
+  },
+  {
+    "nome": "CRM C.A.",
+    "url": "https://ca-crm-lufu.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.515,
+    "json_valido": false,
+    "horario": "2026-05-20 00:02:41"
+  },
+  {
+    "nome": "Temperatura ESP32",
+    "url": "https://temperatura-esp32.onrender.com",
+    "status": "offline - http_404",
+    "codigo_http": 404,
+    "tempo_resposta": 1.264,
+    "json_valido": true,
+    "horario": "2026-05-20 00:02:43"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.538,
+    "json_valido": true,
+    "horario": "2026-05-20 00:03:49"
+  },
+  {
+    "nome": "Manipulador de XML",
+    "url": "https://pcomp.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.899,
+    "json_valido": false,
+    "horario": "2026-05-20 00:03:50"
+  },
+  {
+    "nome": "Clinica Médica Ianes",
+    "url": "https://clinica-ianes.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.136,
+    "json_valido": false,
+    "horario": "2026-05-20 00:03:51"
+  },
+  {
+    "nome": "Dinonex",
+    "url": "https://dimonex.onrender.com",
+    "status": "autenticacao falhou",
+    "codigo_http": 403,
+    "tempo_resposta": 1.133,
+    "json_valido": false,
+    "horario": "2026-05-20 00:03:52"
+  },
+  {
+    "nome": "Todo List App",
+    "url": "https://meu-gestor-de-tarefas-app.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.49,
+    "json_valido": false,
+    "horario": "2026-05-20 00:03:58"
+  },
+  {
+    "nome": "CRM C.A.",
+    "url": "https://ca-crm-lufu.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.148,
+    "json_valido": false,
+    "horario": "2026-05-20 00:04:00"
+  },
+  {
+    "nome": "Temperatura ESP32",
+    "url": "https://temperatura-esp32.onrender.com",
+    "status": "offline - http_404",
+    "codigo_http": 404,
+    "tempo_resposta": 0.764,
+    "json_valido": true,
+    "horario": "2026-05-20 00:04:01"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.538,
+    "json_valido": true,
+    "horario": "2026-05-20 00:05:07"
+  },
+  {
+    "nome": "Manipulador de XML",
+    "url": "https://pcomp.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.128,
+    "json_valido": false,
+    "horario": "2026-05-20 00:05:08"
+  },
+  {
+    "nome": "Clinica Médica Ianes",
+    "url": "https://clinica-ianes.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.56,
+    "json_valido": false,
+    "horario": "2026-05-20 00:05:09"
+  },
+  {
+    "nome": "Dinonex",
+    "url": "https://dimonex.onrender.com",
+    "status": "autenticacao falhou",
+    "codigo_http": 403,
+    "tempo_resposta": 1.252,
+    "json_valido": false,
+    "horario": "2026-05-20 00:05:10"
+  },
+  {
+    "nome": "Todo List App",
+    "url": "https://meu-gestor-de-tarefas-app.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.681,
+    "json_valido": false,
+    "horario": "2026-05-20 00:05:17"
+  },
+  {
+    "nome": "CRM C.A.",
+    "url": "https://ca-crm-lufu.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.679,
+    "json_valido": false,
+    "horario": "2026-05-20 00:05:19"
+  },
+  {
+    "nome": "Temperatura ESP32",
+    "url": "https://temperatura-esp32.onrender.com",
+    "status": "offline - http_404",
+    "codigo_http": 404,
+    "tempo_resposta": 0.807,
+    "json_valido": true,
+    "horario": "2026-05-20 00:05:20"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.572,
+    "json_valido": true,
+    "horario": "2026-05-20 00:06:26"
+  },
+  {
+    "nome": "Manipulador de XML",
+    "url": "https://pcomp.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.807,
+    "json_valido": false,
+    "horario": "2026-05-20 00:06:27"
+  },
+  {
+    "nome": "Clinica Médica Ianes",
+    "url": "https://clinica-ianes.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.48,
+    "json_valido": false,
+    "horario": "2026-05-20 00:06:28"
+  },
+  {
+    "nome": "Dinonex",
+    "url": "https://dimonex.onrender.com",
+    "status": "autenticacao falhou",
+    "codigo_http": 403,
+    "tempo_resposta": 1.324,
+    "json_valido": false,
+    "horario": "2026-05-20 00:06:29"
+  },
+  {
+    "nome": "Todo List App",
+    "url": "https://meu-gestor-de-tarefas-app.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.083,
+    "json_valido": false,
+    "horario": "2026-05-20 00:06:36"
+  },
+  {
+    "nome": "CRM C.A.",
+    "url": "https://ca-crm-lufu.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.532,
+    "json_valido": false,
+    "horario": "2026-05-20 00:06:37"
+  },
+  {
+    "nome": "Temperatura ESP32",
+    "url": "https://temperatura-esp32.onrender.com",
+    "status": "offline - http_404",
+    "codigo_http": 404,
+    "tempo_resposta": 0.844,
+    "json_valido": true,
+    "horario": "2026-05-20 00:06:38"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.438,
+    "json_valido": true,
+    "horario": "2026-05-20 00:07:20"
+  },
+  {
+    "nome": "Manipulador de XML",
+    "url": "https://pcomp.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.26,
+    "json_valido": false,
+    "horario": "2026-05-20 00:07:21"
+  },
+  {
+    "nome": "Clinica Médica Ianes",
+    "url": "https://clinica-ianes.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.976,
+    "json_valido": false,
+    "horario": "2026-05-20 00:07:22"
+  },
+  {
+    "nome": "Dinonex",
+    "url": "https://dimonex.onrender.com",
+    "status": "autenticacao falhou",
+    "codigo_http": 403,
+    "tempo_resposta": 1.236,
+    "json_valido": false,
+    "horario": "2026-05-20 00:07:23"
+  },
+  {
+    "nome": "Todo List App",
+    "url": "https://meu-gestor-de-tarefas-app.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.339,
+    "json_valido": false,
+    "horario": "2026-05-20 00:07:29"
+  },
+  {
+    "nome": "CRM C.A.",
+    "url": "https://ca-crm-lufu.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.356,
+    "json_valido": false,
+    "horario": "2026-05-20 00:07:31"
+  },
+  {
+    "nome": "Temperatura ESP32",
+    "url": "https://temperatura-esp32.onrender.com",
+    "status": "offline - http_404",
+    "codigo_http": 404,
+    "tempo_resposta": 0.732,
+    "json_valido": true,
+    "horario": "2026-05-20 00:07:32"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.471,
+    "json_valido": true,
+    "horario": "2026-05-20 00:08:17"
+  },
+  {
+    "nome": "Manipulador de XML",
+    "url": "https://pcomp.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.672,
+    "json_valido": false,
+    "horario": "2026-05-20 00:08:17"
+  },
+  {
+    "nome": "Clinica Médica Ianes",
+    "url": "https://clinica-ianes.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.996,
+    "json_valido": false,
+    "horario": "2026-05-20 00:08:18"
+  },
+  {
+    "nome": "Dinonex",
+    "url": "https://dimonex.onrender.com",
+    "status": "autenticacao falhou",
+    "codigo_http": 403,
+    "tempo_resposta": 0.774,
+    "json_valido": false,
+    "horario": "2026-05-20 00:08:19"
+  },
+  {
+    "nome": "Todo List App",
+    "url": "https://meu-gestor-de-tarefas-app.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.763,
+    "json_valido": false,
+    "horario": "2026-05-20 00:08:25"
+  },
+  {
+    "nome": "CRM C.A.",
+    "url": "https://ca-crm-lufu.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.623,
+    "json_valido": false,
+    "horario": "2026-05-20 00:08:27"
+  },
+  {
+    "nome": "Temperatura ESP32",
+    "url": "https://temperatura-esp32.onrender.com",
+    "status": "offline - http_404",
+    "codigo_http": 404,
+    "tempo_resposta": 0.81,
+    "json_valido": true,
+    "horario": "2026-05-20 00:08:28"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.595,
+    "json_valido": true,
+    "horario": "2026-05-20 00:09:34"
+  },
+  {
+    "nome": "Manipulador de XML",
+    "url": "https://pcomp.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.793,
+    "json_valido": false,
+    "horario": "2026-05-20 00:09:35"
+  },
+  {
+    "nome": "Clinica Médica Ianes",
+    "url": "https://clinica-ianes.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.115,
+    "json_valido": false,
+    "horario": "2026-05-20 00:09:36"
+  },
+  {
+    "nome": "Dinonex",
+    "url": "https://dimonex.onrender.com",
+    "status": "autenticacao falhou",
+    "codigo_http": 403,
+    "tempo_resposta": 0.856,
+    "json_valido": false,
+    "horario": "2026-05-20 00:09:37"
+  },
+  {
+    "nome": "Todo List App",
+    "url": "https://meu-gestor-de-tarefas-app.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.605,
+    "json_valido": false,
+    "horario": "2026-05-20 00:09:43"
+  },
+  {
+    "nome": "CRM C.A.",
+    "url": "https://ca-crm-lufu.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.554,
+    "json_valido": false,
+    "horario": "2026-05-20 00:09:45"
+  },
+  {
+    "nome": "Temperatura ESP32",
+    "url": "https://temperatura-esp32.onrender.com",
+    "status": "offline - http_404",
+    "codigo_http": 404,
+    "tempo_resposta": 0.821,
+    "json_valido": true,
+    "horario": "2026-05-20 00:09:46"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.592,
+    "json_valido": true,
+    "horario": "2026-05-20 00:10:52"
+  },
+  {
+    "nome": "Manipulador de XML",
+    "url": "https://pcomp.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.289,
+    "json_valido": false,
+    "horario": "2026-05-20 00:10:53"
+  },
+  {
+    "nome": "Clinica Médica Ianes",
+    "url": "https://clinica-ianes.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.669,
+    "json_valido": false,
+    "horario": "2026-05-20 00:10:54"
+  },
+  {
+    "nome": "Dinonex",
+    "url": "https://dimonex.onrender.com",
+    "status": "autenticacao falhou",
+    "codigo_http": 403,
+    "tempo_resposta": 1.29,
+    "json_valido": false,
+    "horario": "2026-05-20 00:10:56"
+  },
+  {
+    "nome": "Todo List App",
+    "url": "https://meu-gestor-de-tarefas-app.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.532,
+    "json_valido": false,
+    "horario": "2026-05-20 00:11:02"
+  },
+  {
+    "nome": "CRM C.A.",
+    "url": "https://ca-crm-lufu.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.472,
+    "json_valido": false,
+    "horario": "2026-05-20 00:11:04"
+  },
+  {
+    "nome": "Temperatura ESP32",
+    "url": "https://temperatura-esp32.onrender.com",
+    "status": "offline - http_404",
+    "codigo_http": 404,
+    "tempo_resposta": 0.687,
+    "json_valido": true,
+    "horario": "2026-05-20 00:11:06"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.654,
+    "json_valido": true,
+    "horario": "2026-05-20 00:12:11"
+  },
+  {
+    "nome": "Manipulador de XML",
+    "url": "https://pcomp.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.308,
+    "json_valido": false,
+    "horario": "2026-05-20 00:12:12"
+  },
+  {
+    "nome": "Clinica Médica Ianes",
+    "url": "https://clinica-ianes.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.047,
+    "json_valido": false,
+    "horario": "2026-05-20 00:12:13"
+  },
+  {
+    "nome": "Dinonex",
+    "url": "https://dimonex.onrender.com",
+    "status": "autenticacao falhou",
+    "codigo_http": 403,
+    "tempo_resposta": 1.247,
+    "json_valido": false,
+    "horario": "2026-05-20 00:12:15"
+  },
+  {
+    "nome": "Todo List App",
+    "url": "https://meu-gestor-de-tarefas-app.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 2.531,
+    "json_valido": false,
+    "horario": "2026-05-20 00:12:21"
+  },
+  {
+    "nome": "CRM C.A.",
+    "url": "https://ca-crm-lufu.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.532,
+    "json_valido": false,
+    "horario": "2026-05-20 00:12:23"
+  },
+  {
+    "nome": "Temperatura ESP32",
+    "url": "https://temperatura-esp32.onrender.com",
+    "status": "offline - http_404",
+    "codigo_http": 404,
+    "tempo_resposta": 1.383,
+    "json_valido": true,
+    "horario": "2026-05-20 00:12:25"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.468,
+    "json_valido": true,
+    "horario": "2026-05-20 00:13:00"
+  },
+  {
+    "nome": "Manipulador de XML",
+    "url": "https://pcomp.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.783,
+    "json_valido": false,
+    "horario": "2026-05-20 00:13:01"
+  },
+  {
+    "nome": "Clinica Médica Ianes",
+    "url": "https://clinica-ianes.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.761,
+    "json_valido": false,
+    "horario": "2026-05-20 00:13:02"
+  },
+  {
+    "nome": "Dinonex",
+    "url": "https://dimonex.onrender.com",
+    "status": "autenticacao falhou",
+    "codigo_http": 403,
+    "tempo_resposta": 1.083,
+    "json_valido": false,
+    "horario": "2026-05-20 00:13:03"
+  },
+  {
+    "nome": "Todo List App",
+    "url": "https://meu-gestor-de-tarefas-app.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.613,
+    "json_valido": false,
+    "horario": "2026-05-20 00:13:10"
+  },
+  {
+    "nome": "CRM C.A.",
+    "url": "https://ca-crm-lufu.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.625,
+    "json_valido": false,
+    "horario": "2026-05-20 00:13:11"
+  },
+  {
+    "nome": "Temperatura ESP32",
+    "url": "https://temperatura-esp32.onrender.com",
+    "status": "offline - http_404",
+    "codigo_http": 404,
+    "tempo_resposta": 0.753,
+    "json_valido": true,
+    "horario": "2026-05-20 00:13:13"
+  },
+  {
+    "nome": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.429,
+    "json_valido": true,
+    "horario": "2026-05-20 00:14:19"
+  },
+  {
+    "nome": "Manipulador de XML",
+    "url": "https://pcomp.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 0.849,
+    "json_valido": false,
+    "horario": "2026-05-20 00:14:19"
+  },
+  {
+    "nome": "Clinica Médica Ianes",
+    "url": "https://clinica-ianes.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.425,
+    "json_valido": false,
+    "horario": "2026-05-20 00:14:20"
+  },
+  {
+    "nome": "Dinonex",
+    "url": "https://dimonex.onrender.com",
+    "status": "autenticacao falhou",
+    "codigo_http": 403,
+    "tempo_resposta": 1.114,
+    "json_valido": false,
+    "horario": "2026-05-20 00:14:22"
+  },
+  {
+    "nome": "Todo List App",
+    "url": "https://meu-gestor-de-tarefas-app.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.551,
+    "json_valido": false,
+    "horario": "2026-05-20 00:14:28"
+  },
+  {
+    "nome": "CRM C.A.",
+    "url": "https://ca-crm-lufu.onrender.com",
+    "status": "online",
+    "codigo_http": 200,
+    "tempo_resposta": 1.103,
+    "json_valido": false,
+    "horario": "2026-05-20 00:14:30"
+  },
+  {
+    "nome": "Temperatura ESP32",
+    "url": "https://temperatura-esp32.onrender.com",
+    "status": "offline - http_404",
+    "codigo_http": 404,
+    "tempo_resposta": 1.307,
+    "json_valido": true,
+    "horario": "2026-05-20 00:14:31"
+  }
+]
