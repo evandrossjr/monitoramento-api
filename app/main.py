@@ -22,16 +22,16 @@ if __name__ == "__main__":
     print("=====================================================")
 
 
-    if os.getenv("RENDER") is None:
-        adicionar = input("Deseja adicionar mais APIs para monitorar? (s/n): ")
-        if adicionar.lower() == 's':
-            while True:
-                url_extra = input("URL da API (ou ENTER para finalizar): ")
-                if not url_extra:
-                    break
-                nome_extra = input("Nome da API: ")
-                API_URLS.append({"name": nome_extra, "url": url_extra})
-                print(f"API '{nome_extra}' adicionada!")
+    # if os.getenv("RENDER") is None:
+    #     adicionar = input("Deseja adicionar mais APIs para monitorar? (s/n): ")
+    #     if adicionar.lower() == 's':
+    #         while True:
+    #             url_extra = input("URL da API (ou ENTER para finalizar): ")
+    #             if not url_extra:
+    #                 break
+    #             nome_extra = input("Nome da API: ")
+    #             API_URLS.append({"name": nome_extra, "url": url_extra})
+    #             print(f"API '{nome_extra}' adicionada!")
 
     print("Iniciando monitoramento...")
     t = threading.Thread(target=loop_monitoramento, daemon=True)

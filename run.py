@@ -1,6 +1,5 @@
 import sys
 import os
+import subprocess
 
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'app'))
-
-from main import *
+subprocess.run([sys.executable, os.path.join(os.path.dirname(__file__), 'app', 'main.py')])
