@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Monitor de APIs</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', sans-serif; background: #0f0f1a; color: #e0e0e0; }
+    header { background: #1a1a2e; padding: 20px 40px; border-bottom: 2px solid #e94560; }
+    header h1 { color: #fff; font-size: 1.6rem; }
+    header span { color: #e94560; }
+    .container { max-width: 1100px; margin: 30px auto; padding: 0 20px; }
+    .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 30px; }
+    .stat-card { background: #1a1a2e; border-radius: 8px; padding: 20px; text-align: center; border: 1px solid #333; }
+    .stat-card .numero { font-size: 2rem; font-weight: bold; color: #e94560; }
+    .stat-card .label { font-size: 0.85rem; color: #aaa; margin-top: 4px; }
+    .btn { background: #e94560; color: white; border: none; padding: 10px 20px; border-radius: 6px; cursor: pointer; font-size: 0.9rem; }
+    .btn:hover { background: #c73652; }
+    table { width: 100%; border-collapse: collapse; background: #1a1a2e; border-radius: 8px; overflow: hidden; }
+    th { background: #16213e; padding: 12px 16px; text-align: left; font-size: 0.85rem; color: #aaa; }
+    td { padding: 12px 16px; border-top: 1px solid #2a2a3e; font-size: 0.9rem; }
+    .online { color: #4caf50; font-weight: bold; }
+    .offline, .erro_servidor { color: #e94560; font-weight: bold; }
+    .timeout { color: #ff9800; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Monitor de <span>APIs</span></h1>
+  </header>
+  <div class='container'>
+    <div class='stats'>
+      <div class='stat-card'><div class='numero' id='total'>-</div><div class='label'>Total Verificacoes</div></div>
+      <div class='stat-card'><div class='numero' id='online'>-</div><div class='label'>Online</div></div>
+      <div class='stat-card'><div class='numero' id='offline'>-</div><div class='label'>Offline/Erro</div></div>
+      <div class='stat-card'><div class='numero' id='taxa'>-</div><div class='label'>Taxa de Sucesso</div></div>
+    </div>
+    <div style='margin-bottom: 16px'>
+      <button class='btn' onclick='checarAgora()'>Verificar Agora</button>
+    </div>
+    <table>
+      <thead><tr><th>API</th><th>Status</th><th>Codigo HTTP</th><th>Tempo (s)</th><th>Horario</th></tr></thead>
+      <tbody id='tabela'><tr><td colspan='5' style='text-align:center;color:#666'>Carregando...</td></tr></tbody>
+    </table>
+  </div>
+  <script>
+    async function carregarStatus() {
+      const r = await fetch('/api/status');
+      const d = await r.json();
+      document.getElementById('total').textContent = d.total_verificacoes;
+      document.getElementById('online').textContent = d.online;
+      document.getElementById('offline').textContent = d.offline;
+      document.getElementById('taxa').textContent = d.taxa_sucesso + '%';
+    }
+    async function carregarLogs() {
+      const r = await fetch('/api/logs');
+      const logs = await r.json();
+      const tb = document.getElementById('tabela');
+      if (!logs.length) { tb.innerHTML = '<tr><td colspan=5 style=text-align:center>Sem dados ainda</td></tr>'; return; }
+      tb.innerHTML = logs.reverse().map(l => {
+        const cls = l.status === 'online' ? 'online' : l.status;
+        return `<tr>
+          <td>${l.nome}</td>
+          <td class='${cls}'>${l.status.toUpperCase()}</td>
+          <td>${l.codigo_http || '-'}</td>
+          <td>${l.tempo_resposta || '-'}</td>
+          <td>${l.horario}</td>
+        </tr>`;
+      }).join('');
+    }
+    async function checarAgora() {
+      await fetch('/api/checar');
+      await carregarLogs();
+      await carregarStatus();
+    }
+    carregarStatus(); carregarLogs();
+    setInterval(() => { carregarStatus(); carregarLogs(); }, 30000);
+  </script>
+</body></html>
+
+

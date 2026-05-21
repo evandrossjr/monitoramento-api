@@ -22,21 +22,22 @@ if __name__ == "__main__":
     print("=====================================================")
 
 
-    adicionar = input("Deseja adicionar mais APIs para monitorar? (s/n): ")
-    if adicionar.lower() == 's':
-        url_extra = input("Digite a URL da API a ser monitorada: ")
-        nome_extra = input("Digite o nome da API: ")
-        API_URLS.append({"name": nome_extra, "url": url_extra})
-        print(F"API {nome_extra} adicionada com sucesso!")
-
+    if os.getenv("RENDER") is None:
+        adicionar = input("Deseja adicionar mais APIs para monitorar? (s/n): ")
+        if adicionar.lower() == 's':
+            while True:
+                url_extra = input("URL da API (ou ENTER para finalizar): ")
+                if not url_extra:
+                    break
+                nome_extra = input("Nome da API: ")
+                API_URLS.append({"name": nome_extra, "url": url_extra})
+                print(f"API '{nome_extra}' adicionada!")
 
     print("Iniciando monitoramento...")
-
     t = threading.Thread(target=loop_monitoramento, daemon=True)
-
     t.start()
     app = criar_app()
-    print(F"Servidor web rodando na porta {FLASK_PORT}...")
-    app.run(host='0.0.0.0', port=FLASK_PORT, debug=False)    
+    print(f"Servidor web rodando na porta {FLASK_PORT}...")
+    app.run(host='0.0.0.0', port=FLASK_PORT, debug=False)   
 
 
