@@ -25,7 +25,7 @@ if __name__ == "__main__":
     app = criar_app()
     t_flask = threading.Thread(
         target=lambda: app.run(host='0.0.0.0', port=FLASK_PORT, debug=False),
-        daemon=True
+        daemon=False
     )
     t_flask.start()
     print(f"Servidor web rodando na porta {FLASK_PORT}...")
