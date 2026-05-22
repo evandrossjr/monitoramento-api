@@ -2,80 +2,610 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Monitor de APIs</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: 'Segoe UI', sans-serif; background: #0f0f1a; color: #e0e0e0; }
-    header { background: #1a1a2e; padding: 20px 40px; border-bottom: 2px solid #e94560; }
-    header h1 { color: #fff; font-size: 1.6rem; }
-    header span { color: #e94560; }
-    .container { max-width: 1100px; margin: 30px auto; padding: 0 20px; }
-    .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 30px; }
-    .stat-card { background: #1a1a2e; border-radius: 8px; padding: 20px; text-align: center; border: 1px solid #333; }
-    .stat-card .numero { font-size: 2rem; font-weight: bold; color: #e94560; }
-    .stat-card .label { font-size: 0.85rem; color: #aaa; margin-top: 4px; }
-    .btn { background: #e94560; color: white; border: none; padding: 10px 20px; border-radius: 6px; cursor: pointer; font-size: 0.9rem; }
-    .btn:hover { background: #c73652; }
-    table { width: 100%; border-collapse: collapse; background: #1a1a2e; border-radius: 8px; overflow: hidden; }
-    th { background: #16213e; padding: 12px 16px; text-align: left; font-size: 0.85rem; color: #aaa; }
-    td { padding: 12px 16px; border-top: 1px solid #2a2a3e; font-size: 0.9rem; }
-    .online { color: #4caf50; font-weight: bold; }
-    .offline, .erro_servidor { color: #e94560; font-weight: bold; }
-    .timeout { color: #ff9800; font-weight: bold; }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0c0c0f;
+      --surface: #13131a;
+      --surface2: #17171f;
+      --border: #1e1e2a;
+      --accent: #e94560;
+      --text: #e0e0e0;
+      --muted: #555566;
+      --green: #00d97e;
+      --yellow: #f5a623;
+      --red: #e94560;
+      --blue: #4a9eff;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'IBM Plex Sans', sans-serif;
+      min-height: 100vh;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(233,69,96,0.025) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(233,69,96,0.025) 1px, transparent 1px);
+      background-size: 40px 40px;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* ── HEADER ── */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(12,12,15,0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .header-left {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .header-dot {
+      width: 8px;
+      height: 8px;
+      background: var(--accent);
+      border-radius: 50%;
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; box-shadow: 0 0 0 0 rgba(233,69,96,0.4); }
+      50% { opacity: 0.7; box-shadow: 0 0 0 4px rgba(233,69,96,0); }
+    }
+
+    .header-title {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 13px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--text);
+    }
+
+    .header-right {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    #relogio {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .btn-checar {
+      background: var(--accent);
+      color: white;
+      border: none;
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 12px;
+      font-weight: 500;
+      padding: 7px 16px;
+      cursor: pointer;
+      transition: opacity 0.2s;
+      letter-spacing: 0.02em;
+    }
+
+    .btn-checar:hover { opacity: 0.85; }
+    .btn-checar:disabled { opacity: 0.4; cursor: not-allowed; }
+
+    .btn-logout {
+      background: transparent;
+      color: var(--muted);
+      border: 1px solid var(--border);
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 11px;
+      padding: 6px 12px;
+      cursor: pointer;
+      transition: color 0.2s, border-color 0.2s;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+    }
+
+    .btn-logout:hover { color: var(--text); border-color: var(--muted); }
+
+    /* ── MAIN ── */
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 32px 32px;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* ── DATA E STATUS GERAL ── */
+    .top-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 28px;
+    }
+
+    .data-atual {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 11px;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+
+    .status-geral {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 12px;
+      font-family: 'IBM Plex Mono', monospace;
+      color: var(--muted);
+    }
+
+    .status-geral-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--green);
+    }
+
+    /* ── CARDS STATS ── */
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin-bottom: 28px;
+    }
+
+    @media (max-width: 700px) {
+      .stats { grid-template-columns: repeat(2, 1fr); }
+    }
+
+    .stat {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      padding: 20px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .stat::after {
+      content: '';
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 2px;
+      background: var(--accent);
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+
+    .stat:hover::after { opacity: 1; }
+
+    .stat-label {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      margin-bottom: 10px;
+    }
+
+    .stat-value {
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 1;
+      color: var(--text);
+    }
+
+    .stat-value.verde { color: var(--green); }
+    .stat-value.vermelho { color: var(--red); }
+    .stat-value.azul { color: var(--blue); }
+
+    /* ── APIS GRID ── */
+    .section-title {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--muted);
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .section-title::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+
+    .apis-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 12px;
+      margin-bottom: 28px;
+    }
+
+    .api-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      padding: 18px 20px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      transition: border-color 0.2s;
+      cursor: default;
+    }
+
+    .api-card:hover { border-color: #2e2e3e; }
+
+    .api-status-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    .api-status-dot.online { background: var(--green); box-shadow: 0 0 6px rgba(0,217,126,0.5); }
+    .api-status-dot.offline { background: var(--red); }
+    .api-status-dot.timeout { background: var(--yellow); }
+    .api-status-dot.auth { background: var(--blue); }
+    .api-status-dot.desconhecido { background: var(--muted); }
+
+    .api-info { flex: 1; min-width: 0; }
+
+    .api-nome {
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--text);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      margin-bottom: 4px;
+    }
+
+    .api-detalhe {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 11px;
+      color: var(--muted);
+    }
+
+    .api-tempo {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 12px;
+      color: var(--muted);
+      flex-shrink: 0;
+    }
+
+    /* ── TABELA LOGS ── */
+    .tabela-wrap {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      overflow: hidden;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    thead th {
+      background: var(--surface2);
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      padding: 12px 16px;
+      text-align: left;
+      font-weight: 400;
+    }
+
+    tbody tr { border-top: 1px solid var(--border); transition: background 0.15s; }
+    tbody tr:hover { background: rgba(255,255,255,0.015); }
+
+    td {
+      padding: 11px 16px;
+      font-size: 13px;
+      color: var(--text);
+    }
+
+    td.mono {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 12px;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 11px;
+      padding: 3px 8px;
+      border-radius: 2px;
+    }
+
+    .badge::before {
+      content: '';
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+    }
+
+    .badge.online { background: rgba(0,217,126,0.1); color: var(--green); }
+    .badge.online::before { background: var(--green); }
+    .badge.offline { background: rgba(233,69,96,0.1); color: var(--red); }
+    .badge.offline::before { background: var(--red); }
+    .badge.timeout { background: rgba(245,166,35,0.1); color: var(--yellow); }
+    .badge.timeout::before { background: var(--yellow); }
+    .badge.auth { background: rgba(74,158,255,0.1); color: var(--blue); }
+    .badge.auth::before { background: var(--blue); }
+    .badge.outro { background: rgba(85,85,102,0.2); color: var(--muted); }
+    .badge.outro::before { background: var(--muted); }
+
+    .empty {
+      text-align: center;
+      padding: 40px;
+      color: var(--muted);
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 12px;
+    }
+
+    /* ── LOADING ── */
+    .spinner {
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      border: 2px solid var(--border);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin 0.7s linear infinite;
+      vertical-align: middle;
+      margin-right: 6px;
+    }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* ── ÚLTIMA ATUALIZAÇÃO ── */
+    .ultima-atualizacao {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 11px;
+      color: var(--muted);
+      text-align: right;
+      margin-top: 12px;
+    }
   </style>
 </head>
 <body>
+
   <header>
-    <h1>Monitor de <span>APIs</span></h1>
+    <div class="header-left">
+      <div class="header-dot"></div>
+      <span class="header-title">API Monitor</span>
+    </div>
+    <div class="header-right">
+      <span id="relogio">--:--:--</span>
+      <button class="btn-checar" id="btnChecar" onclick="checarAgora()">Verificar agora</button>
+      <a href="/logout" class="btn-logout">Sair</a>
+    </div>
   </header>
-  <div class='container'>
-    <div class='stats'>
-      <div class='stat-card'><div class='numero' id='total'>-</div><div class='label'>Total Verificacoes</div></div>
-      <div class='stat-card'><div class='numero' id='online'>-</div><div class='label'>Online</div></div>
-      <div class='stat-card'><div class='numero' id='offline'>-</div><div class='label'>Offline/Erro</div></div>
-      <div class='stat-card'><div class='numero' id='taxa'>-</div><div class='label'>Taxa de Sucesso</div></div>
+
+  <main>
+
+    <div class="top-bar">
+      <div class="data-atual" id="dataAtual">--</div>
+      <div class="status-geral">
+        <div class="status-geral-dot" id="statusGeralDot"></div>
+        <span id="statusGeralTexto">Carregando...</span>
+      </div>
     </div>
-    <div style='margin-bottom: 16px'>
-      <button class='btn' onclick='checarAgora()'>Verificar Agora</button>
+
+    <!-- Stats -->
+    <div class="stats">
+      <div class="stat">
+        <div class="stat-label">Total verificações</div>
+        <div class="stat-value azul" id="statTotal">—</div>
+      </div>
+      <div class="stat">
+        <div class="stat-label">Online</div>
+        <div class="stat-value verde" id="statOnline">—</div>
+      </div>
+      <div class="stat">
+        <div class="stat-label">Offline / Erro</div>
+        <div class="stat-value vermelho" id="statOffline">—</div>
+      </div>
+      <div class="stat">
+        <div class="stat-label">Taxa de sucesso</div>
+        <div class="stat-value" id="statTaxa">—</div>
+      </div>
     </div>
-    <table>
-      <thead><tr><th>API</th><th>Status</th><th>Codigo HTTP</th><th>Tempo (s)</th><th>Horario</th></tr></thead>
-      <tbody id='tabela'><tr><td colspan='5' style='text-align:center;color:#666'>Carregando...</td></tr></tbody>
-    </table>
-  </div>
+
+    <!-- APIs Grid -->
+    <div class="section-title">Status atual das APIs</div>
+    <div class="apis-grid" id="apisGrid">
+      <div class="empty">Carregando...</div>
+    </div>
+
+    <!-- Tabela de logs -->
+    <div class="section-title">Histórico de verificações</div>
+    <div class="tabela-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>API</th>
+            <th>Status</th>
+            <th>HTTP</th>
+            <th>Tempo</th>
+            <th>Horário</th>
+          </tr>
+        </thead>
+        <tbody id="tabelaLogs">
+          <tr><td colspan="5" class="empty">Carregando...</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="ultima-atualizacao" id="ultimaAtualizacao"></div>
+
+  </main>
+
   <script>
+    // ── Relógio e data ──────────────────────────────────────────────
+    function atualizarRelogio() {
+      const agora = new Date();
+      document.getElementById('relogio').textContent =
+        agora.toLocaleTimeString('pt-BR');
+      document.getElementById('dataAtual').textContent =
+        agora.toLocaleDateString('pt-BR', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+    }
+    atualizarRelogio();
+    setInterval(atualizarRelogio, 1000);
+
+    // ── Helpers ─────────────────────────────────────────────────────
+    function classificarStatus(status) {
+      if (!status) return 'outro';
+      const s = status.toLowerCase();
+      if (s === 'online') return 'online';
+      if (s.includes('timeout')) return 'timeout';
+      if (s.includes('autenticac') || s.includes('auth') || s === 'autenticacao falhou') return 'auth';
+      return 'offline';
+    }
+
+    function labelStatus(status) {
+      if (!status) return 'desconhecido';
+      const s = status.toLowerCase();
+      if (s === 'online') return 'ONLINE';
+      if (s.includes('timeout')) return 'TIMEOUT';
+      if (s.includes('autenticac') || s.includes('auth')) return 'AUTH';
+      if (s.includes('http_')) return status.toUpperCase();
+      return status.toUpperCase();
+    }
+
+    // ── Status summary ──────────────────────────────────────────────
     async function carregarStatus() {
-      const r = await fetch('/api/status');
-      const d = await r.json();
-      document.getElementById('total').textContent = d.total_verificacoes;
-      document.getElementById('online').textContent = d.online;
-      document.getElementById('offline').textContent = d.offline;
-      document.getElementById('taxa').textContent = d.taxa_sucesso + '%';
+      try {
+        const r = await fetch('/api/status');
+        const d = await r.json();
+        document.getElementById('statTotal').textContent = d.total_verificacoes;
+        document.getElementById('statOnline').textContent = d.online;
+        document.getElementById('statOffline').textContent = d.offline;
+        document.getElementById('statTaxa').textContent = d.taxa_sucesso + '%';
+
+        const dot = document.getElementById('statusGeralDot');
+        const txt = document.getElementById('statusGeralTexto');
+        if (d.offline === 0) {
+          dot.style.background = 'var(--green)';
+          txt.textContent = 'Todos os serviços operacionais';
+        } else {
+          dot.style.background = 'var(--red)';
+          txt.textContent = `${d.offline} serviço(s) com problema`;
+        }
+      } catch(e) {}
     }
+
+    // ── APIs Grid ───────────────────────────────────────────────────
+    async function carregarApis() {
+      try {
+        const r = await fetch('/api/logs');
+        const logs = await r.json();
+        if (!logs.length) {
+          document.getElementById('apisGrid').innerHTML = '<div class="empty">Nenhuma verificação ainda</div>';
+          return;
+        }
+
+        // Pega o último log de cada API
+        const mapa = {};
+        logs.forEach(l => { mapa[l.nome] = l; });
+
+        const grid = document.getElementById('apisGrid');
+        grid.innerHTML = Object.values(mapa).map(l => {
+          const cls = classificarStatus(l.status);
+          const tempo = l.tempo_resposta ? l.tempo_resposta + 's' : '—';
+          return `
+            <div class="api-card">
+              <div class="api-status-dot ${cls}"></div>
+              <div class="api-info">
+                <div class="api-nome">${l.nome}</div>
+                <div class="api-detalhe">${labelStatus(l.status)}</div>
+              </div>
+              <div class="api-tempo">${tempo}</div>
+            </div>`;
+        }).join('');
+      } catch(e) {}
+    }
+
+    // ── Tabela logs ─────────────────────────────────────────────────
     async function carregarLogs() {
-      const r = await fetch('/api/logs');
-      const logs = await r.json();
-      const tb = document.getElementById('tabela');
-      if (!logs.length) { tb.innerHTML = '<tr><td colspan=5 style=text-align:center>Sem dados ainda</td></tr>'; return; }
-      tb.innerHTML = logs.reverse().map(l => {
-        const cls = l.status === 'online' ? 'online' : l.status;
-        return `<tr>
-          <td>${l.nome}</td>
-          <td class='${cls}'>${l.status.toUpperCase()}</td>
-          <td>${l.codigo_http || '-'}</td>
-          <td>${l.tempo_resposta || '-'}</td>
-          <td>${l.horario}</td>
-        </tr>`;
-      }).join('');
+      try {
+        const r = await fetch('/api/logs');
+        const logs = await r.json();
+        const tbody = document.getElementById('tabelaLogs');
+
+        if (!logs.length) {
+          tbody.innerHTML = '<tr><td colspan="5" class="empty">Nenhum registro ainda</td></tr>';
+          return;
+        }
+
+        tbody.innerHTML = [...logs].reverse().map(l => {
+          const cls = classificarStatus(l.status);
+          const http = l.codigo_http || '—';
+          const tempo = l.tempo_resposta ? l.tempo_resposta + 's' : '—';
+          return `<tr>
+            <td>${l.nome}</td>
+            <td><span class="badge ${cls}">${labelStatus(l.status)}</span></td>
+            <td class="mono">${http}</td>
+            <td class="mono">${tempo}</td>
+            <td class="mono">${l.horario}</td>
+          </tr>`;
+        }).join('');
+
+        const agora = new Date().toLocaleTimeString('pt-BR');
+        document.getElementById('ultimaAtualizacao').textContent = `Última atualização: ${agora}`;
+      } catch(e) {}
     }
+
+    // ── Verificar agora ─────────────────────────────────────────────
     async function checarAgora() {
-      await fetch('/api/checar');
-      await carregarLogs();
-      await carregarStatus();
+      const btn = document.getElementById('btnChecar');
+      btn.disabled = true;
+      btn.innerHTML = '<span class="spinner"></span>Verificando...';
+      try {
+        await fetch('/api/checar');
+        await Promise.all([carregarStatus(), carregarLogs(), carregarApis()]);
+      } finally {
+        btn.disabled = false;
+        btn.textContent = 'Verificar agora';
+      }
     }
-    carregarStatus(); carregarLogs();
-    setInterval(() => { carregarStatus(); carregarLogs(); }, 30000);
+
+    // ── Init ────────────────────────────────────────────────────────
+    async function init() {
+      await Promise.all([carregarStatus(), carregarLogs(), carregarApis()]);
+    }
+
+    init();
+    setInterval(init, 30000); // atualiza a cada 30s
   </script>
-</body></html>
-
-
+</body>
+</html>

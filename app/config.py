@@ -3,6 +3,12 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+#Autenticação
+ADMIN_USER = os.getenv("ADMIN_USER", "admin")
+ADMIN_PASSWORD = os.getenv("ADMIN_PASSWORD", "admin")
+SECRET_KEY = os.getenv("SECRET_KEY", "supersecretkey")
+
+
 API_URLS = []
 
 i = 1
