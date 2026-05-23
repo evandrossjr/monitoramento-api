@@ -31,4 +31,7 @@ if __name__ == "__main__":
     print(f"Servidor web rodando na porta {FLASK_PORT}...")
 
     # Loop principal — mantém o processo vivo no Render
-    loop_monitoramento()
+    try:
+        loop_monitoramento()
+    except KeyboardInterrupt:
+        print("\nMonitoramento encerrado.")

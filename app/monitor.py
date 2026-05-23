@@ -1,9 +1,12 @@
 import requests
 import time
+import pytz
 from datetime import datetime
 from logger import salvar_log
 from alerts import enviar_alerta
 from alerts import enviar_alerta_recuperacao
+
+
 
 
 estado_anterior = {}
@@ -11,7 +14,8 @@ estado_anterior = {}
 def monitorar_api(url: str, nome: str, headers: dict = None):
 
     inicio = time.time()
-    horario = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    fuso = pytz.timezone('America/Bahia')
+    horario = datetime.now(fuso).strftime("%Y-%m-%d %H:%M:%S")
 
     try:
         resposta = requests.get(url, headers=headers, timeout=10)
